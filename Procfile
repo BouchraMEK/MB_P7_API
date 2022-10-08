@@ -1,0 +1,1 @@
+web: gunicorn p7api:app
