@@ -18,7 +18,7 @@ def index():
     return 'Welcome to my Flask API!'
 
 #C
-@app.route('/credit/<id_client>')
+@app.route('/credit/<id_client>', methods=["GET"])
 def credit(id_client):
     print('id client = ', id_client)
 
